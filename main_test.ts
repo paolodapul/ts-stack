@@ -13,3 +13,11 @@ Deno.test("insert new text", () => {
   const content = editor.getContent()
   expect(content).toBe("Hello")
 })
+
+Deno.test("delete inserted text", () => {
+  const editor = new TextEditor()
+  editor.insert("Hello")
+  editor.delete(5)
+  const content = editor.getContent()
+  expect(content).toBe("")
+})
