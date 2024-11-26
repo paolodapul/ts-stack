@@ -6,3 +6,10 @@ Deno.test("get empty textcontent upon instantiation", () => {
   const content = editor.getContent()
   expect(content).toBe("")
 })
+
+Deno.test("insert new text", () => {
+  const editor = new TextEditor()
+  editor.insert("Hello")
+  const content = editor.getContent()
+  expect(content).toBe("Hello")
+})
