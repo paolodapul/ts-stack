@@ -1,0 +1,44 @@
+{
+  "scriptId": "341",
+  "url": "file:///home/pao/source/ts-stack/main.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 1122, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [{ "startOffset": 80, "endOffset": 102, "count": 4 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "TextEditor",
+      "ranges": [{ "startOffset": 106, "endOffset": 174, "count": 4 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "insert",
+      "ranges": [{ "startOffset": 204, "endOffset": 326, "count": 2 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "delete",
+      "ranges": [{ "startOffset": 356, "endOffset": 562, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "undo",
+      "ranges": [
+        { "startOffset": 601, "endOffset": 1034, "count": 1 },
+        { "startOffset": 709, "endOffset": 1030, "count": 0 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getContent",
+      "ranges": [{ "startOffset": 1076, "endOffset": 1119, "count": 3 }],
+      "isBlockCoverage": true
+    }
+  ]
+}

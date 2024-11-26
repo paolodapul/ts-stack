@@ -1,7 +1,3 @@
-export const add = (a: number, b: number) => {
-  return a + b
-}
-
 // Define the type of actions that can be performed
 type Action = {
   type: "insert" | "delete"

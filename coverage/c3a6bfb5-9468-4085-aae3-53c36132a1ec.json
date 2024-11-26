@@ -1,0 +1,31 @@
+{
+  "scriptId": "315",
+  "url": "file:///home/pao/source/ts-stack/main_test.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 889, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 191, "endOffset": 300, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 332, "endOffset": 472, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 509, "endOffset": 664, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 715, "endOffset": 886, "count": 1 }],
+      "isBlockCoverage": true
+    }
+  ]
+}
